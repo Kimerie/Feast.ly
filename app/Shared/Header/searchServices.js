@@ -9,7 +9,7 @@ angular.module('search.services', [])
         method: 'GET',
         url: 'https://api.yummly.com/v1/api/recipes?',
         params: criteria,
-        headers: {'X-Yummly-App-ID':'85328aaa','X-Yummly-App-Key': '9b9c3f69de268c05cd19da7b5bea7a42'}
+        headers: {'X-Yummly-App-ID':'2f7bad12','X-Yummly-App-Key': 'f8160837c1f14975a5f7b327310dc034'}
      }).success(function(res){
         results = res.matches;
         return res.data;
