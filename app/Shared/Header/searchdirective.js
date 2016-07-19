@@ -15,7 +15,7 @@ angular.module('search.directive', [])
         if($state.current.url !== '/results'){
           $state.go('results');
         } else {
-        $state.go($state.current, {}, {reload: true});          
+        $state.go($state.current, {}, {reload: true});
         }
     })
   };
